@@ -22,7 +22,7 @@ This project contains a bunch of demos presenting new features in Java 8. Each d
  - [Iterator](http://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html)
    - [forEachRemaining(Consumer)](http://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html#forEachRemaining-java.util.function.Consumer-)
  - [Collection](http://docs.oracle.com/javase/8/docs/api/java/util/Collection.html) *(extends Iterable)*
-   - [removeIf(Predicate)](http://docs.oracle.com/javase/8/docs/api/java/util/Collection.html#removeIf-java.util.function.Predicate-)
+   - [removeIf(Predicate)](http://docs.oracle.com/javase/8/docs/api/java/util/Collection.html#removeIf-java.util.function.Predicate-) → [demo](/src/pl/luwi/java8/demo/ListRemoveIfDemo.java#L24)
    - [stream()](http://docs.oracle.com/javase/8/docs/api/java/util/Collection.html#stream--)
    - [parallelStream()](http://docs.oracle.com/javase/8/docs/api/java/util/Collection.html#parallelStream--)
  - [List](http://docs.oracle.com/javase/8/docs/api/java/util/List.html) *(extends Collection)*
