@@ -27,7 +27,7 @@ This project contains a bunch of demos presenting new features in Java 8. Each d
    - [parallelStream()](http://docs.oracle.com/javase/8/docs/api/java/util/Collection.html#parallelStream--)
  - [List](http://docs.oracle.com/javase/8/docs/api/java/util/List.html) *(extends Collection)*
    - [replaceAll(UnaryOperator)](http://docs.oracle.com/javase/8/docs/api/java/util/List.html#replaceAll-java.util.function.UnaryOperator-)   
-   - [sort(Comparator)](http://docs.oracle.com/javase/8/docs/api/java/util/List.html#sort-java.util.Comparator-)
+   - [sort(Comparator)](http://docs.oracle.com/javase/8/docs/api/java/util/List.html#sort-java.util.Comparator-) →  [demo](/src/pl/luwi/java8/demo/ListSortDemo.java#L22)
  - [Map](http://docs.oracle.com/javase/8/docs/api/java/util/Map.html)
    - [forEach(BiConsumer)](http://docs.oracle.com/javase/8/docs/api/java/util/Map.html#forEach-java.util.function.BiConsumer-)
    - [getOrDefault(Object, V)](http://docs.oracle.com/javase/8/docs/api/java/util/Map.html#getOrDefault-java.lang.Object-V-)
