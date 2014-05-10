@@ -17,7 +17,7 @@ This project contains a bunch of demos presenting new features in Java 8. Each d
 
 #### Default Methods added to the standard library ####
  - [Iterable](http://docs.oracle.com/javase/8/docs/api/java/lang/Iterable.html)
-   - [forEach(Consumer)](http://docs.oracle.com/javase/8/docs/api/java/lang/Iterable.html#forEach-java.util.function.Consumer-) → [demo](/src/pl/luwi/java8/demo/StreamFilterDemo.java#L23)
+   - [forEach(Consumer)](http://docs.oracle.com/javase/8/docs/api/java/lang/Iterable.html#forEach-java.util.function.Consumer-)
    - [spliterator()](http://docs.oracle.com/javase/8/docs/api/java/lang/Iterable.html#spliterator--)
  - [Iterator](http://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html)
    - [forEachRemaining(Consumer)](http://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html#forEachRemaining-java.util.function.Consumer-)
