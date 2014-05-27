@@ -1,10 +1,10 @@
-package pl.luwi.java8.demo;
+package pl.luwi.java8.time.demo;
 
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.Period;
 
-public class JavaTimeDemo {
+public class PeriodDemo {
 
 	public static void main(String[] args) {
 		LocalDate dateOfBirth = LocalDate.of(1985, Month.MARCH, 28);
@@ -13,6 +13,6 @@ public class JavaTimeDemo {
 		String ageStr = String.format("%d years %d months %d days",
 				age.getYears(), age.getMonths(), age.getDays());
 		System.out.println(ageStr);
-		
+		System.out.println("You was born on " + dateOfBirth.getDayOfWeek());
 	}
 }
