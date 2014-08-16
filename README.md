@@ -11,6 +11,16 @@ This project contains a bunch of demos presenting new features in Java 8. Each d
 
 ## What's new in Java 8 ##
 
+### Lambda Expressions ###
+
+Lambda expressions let you define functions concisely and pass them as method arguments.
+
+Examples of lambda expressions:
+
+- `x -> x % 2 == 0`
+- `(s1, s2) -> s1.compareToIgnoreCase(s2)`
+- `() -> System.currentTimeMillis()`
+
 ### Default Methods ###
 
 > Default methods enable new functionality to be added to the interfaces of libraries and ensure binary compatibility with code written for older versions of those interfaces
