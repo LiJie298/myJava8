@@ -5,12 +5,13 @@ import static java.lang.System.out;
 import java.util.Optional;
 
 import pl.luwi.java8.demo.model.User;
+import pl.luwi.java8.demo.model.User.Role;
 
 public class OptionalDemo {
 	
 	public static Optional<User> getUserById(int id) {
 		if (id == 1) {
-			return Optional.of(new User("admin")); 
+			return Optional.of(new User("admin", Role.Admin)); 
 		} else {
 			return Optional.empty();
 		}
